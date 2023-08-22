@@ -78,10 +78,16 @@
 ---
     yarn install
 ---
+3 - Run
+
+---
+    yarn service:dev
+---
+
 
 4 - Acesse a rota principal
 
-<http://localhost:5000/v1/>
+<http://localhost:5001/v1/>
 
 ### Testando o projeto
 
@@ -99,7 +105,7 @@
     yarn run dev
 ---
 
-1 - Rode os testes de integração no repositório /tests
+2 - Rode os testes de integração no repositório /tests
 
 ---
     yarn test:integration
@@ -114,7 +120,7 @@ Retorna todos os posts criados no banco de dados
 ##### Exemplo
 
 ---
-    http://localhost:5000/v1/posts
+    http://localhost:5001/v1/posts
 ---
 
 **_POST_** /posts (em desenvolvimento)
